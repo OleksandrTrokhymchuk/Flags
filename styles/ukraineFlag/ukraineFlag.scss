@@ -1,0 +1,12 @@
+.ukraine {
+    & .flag-part {
+        height: 50%;
+        width: 100%;
+    }
+    & .blue-part {
+        background-color: #0057B8;
+    }
+    & .yellow-part {
+        background-color: #FFDD00;
+    }
+}
