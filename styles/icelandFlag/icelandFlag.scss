@@ -1,0 +1,35 @@
+.iceland {
+    background-color: #003897;
+    position: relative;
+    .flag-part {
+        position: absolute;
+    }
+    .white-part {
+        background-color: white;
+    }
+    .red-part {
+        background-color: #D72828;
+    }
+    .horizontal-part {
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .vertical-part {
+        height: 100%;
+    }
+    .white-horizontal-part {
+        height: 48px;
+    }
+    .white-vertical-part {
+        width: 48px;
+        left: 84px;
+    }
+    .red-horizontal-part {
+        height: 24px;
+    }
+    .red-vertical-part {
+        width: 24px;
+        left: 96px;
+    }
+}

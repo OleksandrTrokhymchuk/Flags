@@ -1,0 +1,35 @@
+.iceland {
+  background-color: #003897;
+  position: relative;
+}
+.iceland .flag-part {
+  position: absolute;
+}
+.iceland .white-part {
+  background-color: white;
+}
+.iceland .red-part {
+  background-color: #D72828;
+}
+.iceland .horizontal-part {
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.iceland .vertical-part {
+  height: 100%;
+}
+.iceland .white-horizontal-part {
+  height: 48px;
+}
+.iceland .white-vertical-part {
+  width: 48px;
+  left: 84px;
+}
+.iceland .red-horizontal-part {
+  height: 24px;
+}
+.iceland .red-vertical-part {
+  width: 24px;
+  left: 96px;
+}/*# sourceMappingURL=icelandFlag.css.map */
