@@ -62,6 +62,32 @@
   left: 96px;
 }
 
+.czech-republic {
+  overflow: hidden;
+  position: relative;
+}
+.czech-republic .flag-part {
+  width: 100%;
+  height: 50%;
+}
+.czech-republic .flag-part.blue-part {
+  height: 212px;
+  width: 212px;
+  position: absolute;
+  top: 50%;
+  left: -52%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.czech-republic .white-part {
+  background-color: white;
+}
+.czech-republic .red-part {
+  background-color: #D7141A;
+}
+.czech-republic .blue-part {
+  background-color: #11457E;
+}
+
 .wrapper {
   padding: 20px;
 }
