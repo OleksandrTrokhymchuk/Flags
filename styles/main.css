@@ -1,4 +1,15 @@
-@import url(./reset.css);
+@import './reset.css';
+.ukraine .flag-part {
+  height: 50%;
+  width: 100%;
+}
+.ukraine .blue-part {
+  background-color: #0057B8;
+}
+.ukraine .yellow-part {
+  background-color: #FFDD00;
+}
+
 .wrapper {
   padding: 20px;
 }
