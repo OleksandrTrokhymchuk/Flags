@@ -1,0 +1,25 @@
+.czech-republic {
+    overflow: hidden;
+    position: relative;
+    .flag-part {
+        width: 100%;
+        height: 50%;
+        &.blue-part {
+            height: 212px;
+            width: 212px;
+            position: absolute;
+            top: 50%;
+            left: -52%;
+            transform: translateY(-50%) rotate(45deg);
+        }
+    }
+    .white-part {
+        background-color: white;
+    }
+    .red-part {
+        background-color: #D7141A;
+    }
+    .blue-part {
+        background-color: #11457E;
+    }
+}
