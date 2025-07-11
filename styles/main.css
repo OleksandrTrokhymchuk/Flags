@@ -1,0 +1,23 @@
+@import url(./reset.css);
+.wrapper {
+  padding: 20px;
+}
+
+.flag-container {
+  border: 1px solid rgb(187, 187, 187);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  width: 300px;
+  height: 200px;
+}
+@media (any-hover: hover) {
+  .flag-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+}
+.flag-container.iceland {
+  height: 216px;
+}
+.flag-container:not(:last-of-type) {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=main.css.map */
