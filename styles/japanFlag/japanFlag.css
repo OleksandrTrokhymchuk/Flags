@@ -1,0 +1,15 @@
+.japan {
+  background-color: white;
+  position: relative;
+}
+.japan .red-circle {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  height: 120px;
+  aspect-ratio: 1;
+  background-color: #BC002D;
+}/*# sourceMappingURL=japanFlag.css.map */
